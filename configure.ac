@@ -1,0 +1,20 @@
+AC_INIT([unit_circl],[1.0.2])
+AM_INIT_AUTOMAKE
+AM_MAINTAINER_MODE
+AM_CONFIG_HEADER(config.h)
+
+AC_ISC_POSIX
+AC_PROG_CC
+AM_PROG_CC_STDC
+AC_HEADER_STDC
+
+pkg_modules="libgnomeui-2.0"
+PKG_CHECK_MODULES(PACKAGE, [$pkg_modules])
+AC_SUBST(PACKAGE_CFLAGS)
+AC_SUBST(PACKAGE_LIBS)
+
+AC_OUTPUT([
+Makefile
+src/Makefile
+])
+

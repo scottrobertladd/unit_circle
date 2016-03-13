@@ -1,0 +1,40 @@
+-----------------------------------------------------------------
+Unit Circle  
+
+An interactive demonstration of the relationships between angles
+and trigonometric functions.
+-----------------------------------------------------------------
+
+  version 1.0.2, released 13 March 2016
+      http://github/unit_circle/index.html
+      scott.ladd@gmail.com
+
+  Copyright 2016 Scott Robert Ladd. All rights reserved.
+  
+  Distributed under GPL 2 licensing.
+            
+-----------------------------------------------------------------
+
+For me, understanding something requires a practical application.
+I've never been good at abstract learning, at least when it comes
+to hands-on tasks like computer programming.
+
+I've been exploring the Cairo enhancements to GTK+, and wrote a
+small program to see how it all worked. In the case of Cairo, the
+Unit Circle program stems from teaching my daughters some aspects
+of trigonometry. The program isn't rocket science, but it did
+give me ample opportunity to fiddle with an interactive graphics
+program.
+
+The unit circle (where the radius equals 1) provides a very clear
+demonstration of how various trigonometric functions relate to
+angles and one another. Draw an angle line from the origin to
+a point on the circumphrence of the circle; the (x,y) coordinates
+of that point will will be the cosine and since of the angle.
+
+In Unit Circle, use the mouse to set the angle line by either
+clicking or dragging the pointer inside the diagram. Change the
+trigonmetric values in the fields, and the angle will
+automatically adjust.
+
+-----------------------------------------------------------------
